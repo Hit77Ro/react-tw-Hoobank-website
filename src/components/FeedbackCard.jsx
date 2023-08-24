@@ -1,6 +1,6 @@
 import { quotes } from "../assets";
 export default function FeedbackCard({ name, content, img, title }) {
-  return ( 
+  return (
     <article
       className="feedback-card mr-0 flex max-w-[370px] flex-col justify-between rounded-[20px]  px-10 py-12
      sm:mr-5 md:mr-10"
@@ -15,13 +15,15 @@ export default function FeedbackCard({ name, content, img, title }) {
         {content}{" "}
       </p>
       <div className="flex flex-row">
-        <img src={img} alt={name} className="rounded-full h-[48px] w-[48px]" />
-        <div className="flex flex-col ml-4">
-          <h4 className="text-white font-poppins font-semibold leading-8 "> {name} </h4>
-          <p className="font-poppins text-white font-normal text-base leading-6">
-           {title} 
+        <img src={img} alt={name} className="h-[48px] w-[48px] rounded-full" />
+        <div className="ml-4 flex flex-col">
+          <h4 className="font-poppins font-semibold leading-8 text-white ">
+            {" "}
+            {name}{" "}
+          </h4>
+          <p className="font-poppins text-base font-normal leading-6 text-white">
+            {title}
           </p>
-           
         </div>
       </div>
     </article>

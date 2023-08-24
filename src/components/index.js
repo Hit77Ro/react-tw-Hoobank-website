@@ -12,19 +12,18 @@ import Stats from "./Stats";
 import Clients from "./Clients";
 import Testimonials from "./Testimonials";
 
-
-export { 
-    Navbar, 
-    Billing, 
-    Businsess,
-    Button,
-    CardDeal,
-    Cta,
-    FeedbackCard,
-    Footer,
-    Getstarted,
-    Hero,
-    Stats,
-    Clients,
-    Testimonials
-}
+export {
+  Navbar,
+  Billing,
+  Businsess,
+  Button,
+  CardDeal,
+  Cta,
+  FeedbackCard,
+  Footer,
+  Getstarted,
+  Hero,
+  Stats,
+  Clients,
+  Testimonials,
+};

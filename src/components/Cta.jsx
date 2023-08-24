@@ -1,6 +1,5 @@
-
-import styles from "../style" 
-import Button from "./Button" 
+import styles from "../style";
+import Button from "./Button";
 
 export default function Cta() {
   return (
@@ -20,9 +19,7 @@ export default function Cta() {
       <div className={`sm:mt0 ml-0 mt-10 sm:ml-10`}>
         {" "}
         <Button />{" "}
-        
       </div>
     </section>
   );
 }
-

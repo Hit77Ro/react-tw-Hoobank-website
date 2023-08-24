@@ -2,7 +2,7 @@ import { apple, bill, google } from "../assets";
 import styles, { layout } from "../style";
 export default function Billing() {
   return (
-    <section id="billing" className={`${layout.sectionReverse} relative` }>
+    <section id="billing" className={`${layout.sectionReverse} relative`}>
       <div className="blue__gradient absolute -left-[50%] top-40 z-[0] h-[60%] w-[60%] rounded-full" />
       <div className={`${layout.sectionImgReverse}`}>
         <img
