@@ -1,6 +1,6 @@
 import styles from "../style";
 import { footerLinks, socialMedia } from "../constant";
-import { logo } from "../assets";
+import { logo } from "../../public/assets";
 export default function Footer() {
   return (
     <footer className={`${styles.flexCenter} flex-col ${styles.paddingY}`}>

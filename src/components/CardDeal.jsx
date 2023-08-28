@@ -1,7 +1,7 @@
 import Button from "./Button";
 import styles, { layout } from "../style";
 import Br from "./Br";
-import { card } from "../assets";
+import { card } from "../../public/assets";
 const CardDeal = () => (
   <section className={`${layout.section}`} id="product">
     <div className={`${layout.sectionInfo}`}>

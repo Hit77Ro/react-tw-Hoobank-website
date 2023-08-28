@@ -1,4 +1,4 @@
-import { quotes } from "../assets";
+import { quotes } from "../../public/assets";
 export default function FeedbackCard({ name, content, img, title }) {
   return (
     <article

@@ -1,5 +1,5 @@
 import styles from "../style";
-import { discount, robot } from "../assets";
+import { discount, robot } from "../../public/assets";
 import Getstarted from "./Getstarted";
 export default function Hero() {
   return (
